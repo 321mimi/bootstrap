@@ -1,0 +1,65 @@
+/* Color scheme:
+    URL: https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=0&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.6278430225819622,1,0.4516508092544045,0.91,0.7174923068045487,0.34641992510796527,1,0.28892910606360545,0.49840387209566406,0.4622498676102206,0.4924794905020432,0.91,0.8627450980392157,1,0.9304430080229135&swatchOrder=0,1,2,3,4
+*/
+* {
+    /* Sans-serif */
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    /* Serif */
+    font-family: 'Alegreya', Georgia, serif;
+    color: #FF4A7F;
+}
+h5, h6, .iconic {
+    color: #767EE8;
+}
+.jumbotron {
+    background: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.btn-primary {
+    border:none;
+    background: #E8B758;
+}
+.btn-primary:hover, .btn-primary:focus, btn-primary:active {
+    background: #767EE8 !important;
+    border:none !important; 
+}
+.card, .form-control, .img-fluid, .jumbotron {
+    border: 1px solid #A0FF73;
+}
+.main-footer {
+    background: #DCFFED;
+    padding: 2em;
+}
+main {
+    margin-top:100px;
+}
+.main-footer {
+    margin-top:50px;
+}
+.copyright {
+    text-align: right;
+}
+.social li {
+    font-size: 3em;
+    display: inline;
+}
+
+html {
+  font-size: 1rem;
+}
+.display-3 {
+    font-size: 3rem;
+}
+@media only screen and (min-width : 992px) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width : 1200px) {
+    html {
+        font-size: 1.4rem;
+    }
+}
